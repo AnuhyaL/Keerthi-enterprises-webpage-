@@ -11,7 +11,7 @@ export default function App() {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="/assets/company logo.png"
+              src="./assets/company logo.png"
               alt="Keerthi Enterprises"
               className="h-16 w-16"
             />
@@ -45,7 +45,7 @@ export default function App() {
 <section
   className="relative min-h-[90vh] flex items-center overflow-hidden"
   style={{
-    backgroundImage: "url('/assets/Background.png')",
+    backgroundImage: "url('./assets/Background.png')",
     backgroundSize: "cover",
     backgroundPosition: "center 30%",
     backgroundRepeat: "no-repeat",
@@ -132,7 +132,7 @@ export default function App() {
       {[
         {
           title: "Life Insurance",
-          img: "life insurance.png",
+          src = "./assets/life insurance.png",
           desc: "Secure your family's future with comprehensive life insurance plans.",
           points: [
             "Term Life Coverage",
