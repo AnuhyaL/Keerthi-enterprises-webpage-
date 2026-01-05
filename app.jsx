@@ -130,39 +130,42 @@ export default function App() {
     <div className="grid md:grid-cols-3 gap-6">
 
       {[
-        {
-          title: "Life Insurance",
-          src = "./assets/life insurance.png",
-          desc: "Secure your family's future with comprehensive life insurance plans.",
-          points: [
-            "Term Life Coverage",
-            "Whole Life Plans",
-            "Investment Options",
-            "Family Protection",
-          ],
-        },
-        {
-          title: "Health Insurance",
-          img: "health insurance.png",
-          desc: "Complete healthcare coverage with cashless hospitalization.",
-          points: [
-            "Family Floater Plans",
-            "Critical Illness Cover",
-            "Cashless Treatment",
-            "Wellness Benefits",
-          ],
-        },
-        {
-          title: "Motor Insurance",
-          img: "Motor insurance.png",
-          desc: "Reliable coverage for your vehicle with quick claims.",
-          points: [
-            "Comprehensive & Third-Party",
-            "Zero Depreciation",
-            "24/7 Roadside Assistance",
-            "Cashless Repairs",
-          ],
-        },
+     const services = [
+  {
+    title: "Life Insurance",
+    img: "./assets/life insurance.png",
+    desc: "Secure your family's future with comprehensive life insurance plans.",
+    points: [
+      "Term Life Coverage",
+      "Whole Life Plans",
+      "Investment Options",
+      "Family Protection",
+    ],
+  },
+  {
+    title: "Health Insurance",
+    img: "./assets/health insurance.png",
+    desc: "Complete healthcare coverage with cashless hospitalization.",
+    points: [
+      "Family Floater Plans",
+      "Critical Illness Cover",
+      "Cashless Treatment",
+      "Wellness Benefits",
+    ],
+  },
+  {
+    title: "Motor Insurance",
+    img: "./assets/Motor insurance.png",
+    desc: "Reliable coverage for your vehicle with quick claims.",
+    points: [
+      "Comprehensive & Third-Party",
+      "Zero Depreciation",
+      "24/7 Roadside Assistance",
+      "Cashless Repairs",
+    ],
+  },
+];
+
       ].map((service) => (
         <div
           key={service.title}
