@@ -28,7 +28,7 @@ export default function App() {
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center">
         <div className="absolute inset-0 -z-10">
-          <img src="/assets/hero-insurance.jpg" alt="Hero" className="w-full h-full object-cover" />
+          <img src="/assets/Background.png" alt="Hero" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-transparent" />
         </div>
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center py-24">
