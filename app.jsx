@@ -11,7 +11,7 @@ export default function App() {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="/assets/company logo.png"
+              src="/public/assets/company logo.png"
               alt="Keerthi Enterprises"
               className="h-16 w-16"
             />
