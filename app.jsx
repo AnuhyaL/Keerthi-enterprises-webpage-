@@ -26,7 +26,7 @@ export default function App() {
           <div className="flex items-center gap-6">
           <nav className="hidden md:flex gap-6 text-sm">
             <a href="#services" className="hover:text-primary">Services</a>
-            <a href="#stats" className="hover:text-primary">Why Us</a>
+            <a href="#stats" className="hover:text-primary">Why Choose Us</a>
             <a href="#locations" className="hover:text-primary">Locations</a>
             <a href="#testimonials" className="hover:text-primary">Testimonials</a>
           </nav>
@@ -210,7 +210,7 @@ export default function App() {
 <section id="stats" className="py-20 bg-primary text-white">
   <div className="container mx-auto px-4 sm:px-6 lg:px-8">
    <div className="text-center mb-12">
-      <h2 className="text-3xl font-bold">Why us?</h2>
+      <h2 className="text-3xl font-bold">Why Choose us?</h2>
     </div>
     <div className="grid md:grid-cols-4 gap-6 text-center">
       <div className="p-6 bg-white/10 rounded-2xl backdrop-blur">
@@ -461,7 +461,7 @@ export default function App() {
       <h4 className="font-semibold mb-4">Quick Links</h4>
       <ul className="space-y-2 text-sm">
         <li><a href="#services">Services</a></li>
-        <li><a href="#stats">Why Us</a></li>
+        <li><a href="#stats">Why Choose Us</a></li>
         <li><a href="#locations">Locations</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
       </ul>
